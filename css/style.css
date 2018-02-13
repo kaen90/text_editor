@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #2a2a2a;
+}
+body{
+	min-width: 100%;
+	min-height: 100%;
+	background-color: #444d51;
+
+}
+.container{
+	width: 95%;
+	position: relative;
+}
+.page-header{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 875px;
+	height: 265px;
+	z-index: 100;
+}
+.page-header .title-input{
+	height: 190px;
+	width: 875px;
+	background-color: #181818;
+}
+.content-header{
+	padding: 50px;
+}
+.content-header .title{
+	color: #777777;
+	font: 400 15px/1.0 "Montserrat";
+}
+.content-header .text{
+	font: 400 48px/1.9 "Playfair+Display";
+	color: #fefefe;
+	border-bottom: 2px solid #303030;
+}
+.control-bar{
+	width: 815px;
+	height: 85px;
+	background-color: #f5bb2c;
+	position: absolute;
+	right: 0;
+}
+.control-bar .tools{
+	text-align: center;
+	padding: 20px 40px;
+}
+.contets{
+	position: absolute;
+	top: 150px;
+	left: 5%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 875px;
+	background-color: #fff;
+}
+.content-container{
+	width: 815px;
+	margin: 0 auto;
+}
+.data p{
+	padding-top: 200px;
+	padding-bottom: 50px;
+	font: 400 20px/1.0 "Montserrat";
+	color: #8f8f8f;
+}
+.content-title h2{
+	font: 900 78px/1.0 "Didact+Gothic";
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.task p{
+	font: 400 30px/1.5 "Georgia";
+	font-style: italic;
+	color: #8f8f8f;
+	padding-bottom: 50px;
+}
+.paragraf p{
+	font: 400 26px/1.5 "Georgia";
+	color: #000;
+	padding-bottom: 40px;
+}
